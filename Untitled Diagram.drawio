@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-04T02:21:40.354Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="ULIwdViNAQfOxwP9CimG" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-04T02:24:09.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Fx-VKyvGd3aka_uyV4WT" version="17.5.0" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="1632" dy="1543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -39,7 +39,7 @@
         <mxCell id="Vvdhg_ALBChD_DTkoO_b-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="Vvdhg_ALBChD_DTkoO_b-13" vertex="1">
           <mxGeometry y="52" width="170" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Vvdhg_ALBChD_DTkoO_b-16" value="叩かれなくてもデストロイで&#xa;クラスが消える" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Vvdhg_ALBChD_DTkoO_b-13" vertex="1">
+        <mxCell id="Vvdhg_ALBChD_DTkoO_b-16" value="叩かれなくてもデストロイで&#xa;クラスが消える&#xa;MoleAlphabetID&#xa;color" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Vvdhg_ALBChD_DTkoO_b-13" vertex="1">
           <mxGeometry y="60" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Vvdhg_ALBChD_DTkoO_b-17" value="MolePool" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -62,6 +62,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Z_1ZyHOvy-6-JFD3m0zJ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.664;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Vvdhg_ALBChD_DTkoO_b-21" target="Vvdhg_ALBChD_DTkoO_b-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Vvdhg_ALBChD_DTkoO_b-21" value="MoleFactory" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="60" y="10" width="242.5" height="114" as="geometry" />
         </mxCell>
@@ -71,7 +74,7 @@
         <mxCell id="Vvdhg_ALBChD_DTkoO_b-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="Vvdhg_ALBChD_DTkoO_b-21" vertex="1">
           <mxGeometry y="56" width="242.5" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Vvdhg_ALBChD_DTkoO_b-24" value="モグラがPoolに無いか問い合わせ&#xa;生成する&#xa;Dispatchaerにするなら派遣先決め係" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Vvdhg_ALBChD_DTkoO_b-21" vertex="1">
+        <mxCell id="Vvdhg_ALBChD_DTkoO_b-24" value="モグラがPoolに無いか問い合わせ&#xa;生成する&#xa;Dispatchaerにするなら配属先決め係" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Vvdhg_ALBChD_DTkoO_b-21" vertex="1">
           <mxGeometry y="64" width="242.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Vvdhg_ALBChD_DTkoO_b-26" value="MoleView" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
